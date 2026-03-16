@@ -1,116 +1,63 @@
-name: Excel Macros API
-description: A collection of APIs and resources for working with Excel Macros (VBA), including macro automation, workbook manipulation, and VBA development tools
-image: https://example.com/excel-macros-logo.png
-created: '2025-01-20'
-modified: '2025-01-20'
-specificationVersion: '0.18'
-url: https://example.com/apis.json
+aid: excel-macros
+name: Excel Macros
+description: >-
+  Excel Macros refer to automated sequences of actions in Microsoft Excel,
+  primarily written using VBA (Visual Basic for Applications). Excel also
+  supports Office Scripts (TypeScript) and the Excel JavaScript API for
+  building add-ins. These automation capabilities allow users to streamline
+  repetitive tasks, manipulate workbooks, and extend Excel functionality.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Excel
-- VBA
-- Macros
-- Automation
-- Microsoft Office
-- Spreadsheets
-apis:
-- name: Excel VBA Object Model API
-  description: Core VBA API for interacting with Excel workbooks, worksheets, ranges, and other objects
-  image: https://example.com/excel-vba-logo.png
-  humanUrl: https://docs.microsoft.com/en-us/office/vba/api/overview/excel
-  baseUrl: https://excel.office.com/vba/api
-  tags:
+  - Excel
   - VBA
-  - Object Model
-  - Workbooks
-  - Worksheets
-  properties:
+  - Macros
+  - Automation
+  - Microsoft Office
+url: https://docs.microsoft.com/en-us/office/vba/api/overview/excel
+created: '2025-01-20'
+modified: '2026-03-16'
+position: Consumer
+access: 3rd-Party
+specificationVersion: '0.19'
+apis:
+  - aid: excel-macros:excel-vba-api
+    name: Excel VBA Object Model API
+    description: >-
+      Core VBA API for interacting with Excel workbooks, worksheets, ranges,
+      and other Excel objects through Visual Basic for Applications.
+    humanURL: https://docs.microsoft.com/en-us/office/vba/api/overview/excel
+    tags:
+      - VBA
+      - Object Model
+      - Workbooks
+    properties:
+      - type: Documentation
+        url: https://docs.microsoft.com/en-us/office/vba/api/overview/excel
+  - aid: excel-macros:excel-javascript-api
+    name: Excel JavaScript API
+    description: >-
+      JavaScript API for building Excel add-ins and extending Excel
+      functionality in web and desktop environments.
+    humanURL: https://docs.microsoft.com/en-us/office/dev/add-ins/excel/
+    tags:
+      - JavaScript
+      - Add-ins
+      - Web Development
+    properties:
+      - type: Documentation
+        url: https://docs.microsoft.com/en-us/office/dev/add-ins/excel/
+common:
   - type: Documentation
     url: https://docs.microsoft.com/en-us/office/vba/api/overview/excel
-  - type: Reference
-    url: https://docs.microsoft.com/en-us/office/vba/api/overview/excel/object-model
-  - type: Examples
-    url: https://docs.microsoft.com/en-us/office/vba/excel/concepts/getting-started-with-vba-in-office
-  contact:
-  - type: Support
-    url: https://support.microsoft.com/excel
-- name: Office Scripts API
-  description: Modern TypeScript-based API for automating Excel tasks, successor to VBA for Excel on the web
-  image: https://example.com/office-scripts-logo.png
-  humanUrl: https://docs.microsoft.com/en-us/office/dev/scripts/
-  baseUrl: https://excel.office.com/scripts/api
-  tags:
-  - Office Scripts
-  - TypeScript
-  - Automation
-  - Cloud
-  properties:
-  - type: Documentation
-    url: https://docs.microsoft.com/en-us/office/dev/scripts/overview/excel
-  - type: API Reference
-    url: https://docs.microsoft.com/en-us/javascript/api/office-scripts/excel
-  - type: Tutorials
-    url: https://docs.microsoft.com/en-us/office/dev/scripts/tutorials/excel-tutorial
-  - type: Code Samples
-    url: https://github.com/OfficeDev/office-scripts-docs
-  contact:
-  - type: GitHub
-    url: https://github.com/OfficeDev/office-scripts-docs
-- name: Excel JavaScript API
-  description: JavaScript API for building Excel add-ins and extending Excel functionality
-  image: https://example.com/excel-js-logo.png
-  humanUrl: https://docs.microsoft.com/en-us/office/dev/add-ins/reference/overview/excel-add-ins-reference-overview
-  baseUrl: https://appsforoffice.microsoft.com/lib/1/hosted/office.js
-  tags:
-  - JavaScript
-  - Add-ins
-  - Web Development
-  - Office.js
-  properties:
-  - type: Documentation
-    url: https://docs.microsoft.com/en-us/office/dev/add-ins/excel/
-  - type: API Reference
-    url: https://docs.microsoft.com/en-us/javascript/api/excel
-  - type: Quick Starts
-    url: https://docs.microsoft.com/en-us/office/dev/add-ins/quickstarts/excel-quickstart-jquery
-  - type: Code Samples
-    url: https://github.com/OfficeDev/Excel-Add-in-samples
-  contact:
-  - type: GitHub
-    url: https://github.com/OfficeDev/office-js
-- name: VBA Macro Security API
-  description: APIs and settings for managing macro security, digital signatures, and trusted locations
-  image: https://example.com/macro-security-logo.png
-  humanUrl: https://docs.microsoft.com/en-us/deployoffice/security/internet-macros-blocked
-  baseUrl: https://excel.office.com/security/macros
-  tags:
-  - Security
-  - Digital Signatures
-  - Trust Center
-  - Policies
-  properties:
-  - type: Documentation
-    url: https://docs.microsoft.com/en-us/office/vba/library-reference/concepts/getting-started-with-vba-in-office
-  - type: Security Guidelines
-    url: https://docs.microsoft.com/en-us/deployoffice/security/internet-macros-blocked
-  - type: Best Practices
-    url: https://support.microsoft.com/en-us/office/enable-or-disable-macros-in-office-files
+  - type: Portal
+    url: https://developer.microsoft.com/office
+  - type: TermsOfService
+    url: https://www.microsoft.com/en-us/legal/terms-of-use
+  - type: PrivacyPolicy
+    url: https://privacy.microsoft.com/
+  - type: GitHubOrganization
+    url: https://github.com/OfficeDev
 maintainers:
-- name: Microsoft Office Dev Team
-  email: officedev@microsoft.com
-  url: https://developer.microsoft.com/office
-include:
-- name: VBA Code Libraries
-  url: https://example.com/vba-libraries-apis.yaml
-- name: Excel Automation Tools
-  url: https://example.com/excel-automation-apis.yaml
-common:
-- type: Terms of Service
-  url: https://www.microsoft.com/en-us/legal/terms-of-use
-- type: Privacy Policy
-  url: https://privacy.microsoft.com/
-- type: Developer Portal
-  url: https://developer.microsoft.com/office
-- type: Community Forum
-  url: https://techcommunity.microsoft.com/t5/excel/ct-p/Excel_Cat
-- type: GitHub Organization
-  url: https://github.com/OfficeDev
+  - FN: Kin Lane
+    email: kin@apievangelist.com
