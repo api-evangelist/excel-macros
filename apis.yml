@@ -9,11 +9,11 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Excel
-  - VBA
-  - Macros
   - Automation
+  - Excel
+  - Macros
   - Microsoft Office
+  - VBA
 url: https://docs.microsoft.com/en-us/office/vba/api/overview/excel
 created: '2025-01-20'
 modified: '2026-03-16'
@@ -28,8 +28,8 @@ apis:
       and other Excel objects through Visual Basic for Applications.
     humanURL: https://docs.microsoft.com/en-us/office/vba/api/overview/excel
     tags:
-      - VBA
       - Object Model
+      - VBA
       - Workbooks
     properties:
       - type: Documentation
@@ -41,8 +41,8 @@ apis:
       functionality in web and desktop environments.
     humanURL: https://docs.microsoft.com/en-us/office/dev/add-ins/excel/
     tags:
+      - Add-Ins
       - JavaScript
-      - Add-ins
       - Web Development
     properties:
       - type: Documentation
