@@ -1,40 +1,43 @@
-# Excel Macros API (excel-macros)
-A collection of APIs and resources for working with Excel Macros (VBA), including macro automation, workbook manipulation, and VBA development tools
+# Excel Macros (excel-macros)
+A collection of APIs and resources for working with Excel automation, including VBA macros, Office Scripts (TypeScript), and the Excel JavaScript API for building Office Add-ins. These automation capabilities allow users to streamline repetitive tasks, manipulate workbooks, and extend Excel functionality across desktop, web, and mobile.
 
-**URL:** [Visit APIs.json URL](https://example.com/apis.json)
+**URL:** [Visit APIs.json URL](https://docs.microsoft.com/en-us/office/vba/api/overview/excel)
+
+## Scope
+
+- **Type:** Index
+- **Position:** Consumer
+- **Access:** 3rd-Party
 
 ## Tags:
 
- - Excel, VBA, Macros, Automation, Microsoft Office, Spreadsheets
+ - Excel, VBA, Macros, Automation, Microsoft Office, Office Scripts, JavaScript
 
 ## Timestamps
 
-- **Created:** 2025-01-20 
-- **Modified:** 2025-01-20 
+- **Created:** 2025-01-20
+- **Modified:** 2026-04-28
 
 ## APIs
 
 ### Excel VBA Object Model API
-Core VBA API for interacting with Excel workbooks, worksheets, ranges, and other objects
+Core VBA API for interacting with Excel workbooks, worksheets, ranges, and other Excel objects through Visual Basic for Applications.
 
 **Human URL:** [https://docs.microsoft.com/en-us/office/vba/api/overview/excel](https://docs.microsoft.com/en-us/office/vba/api/overview/excel)
 
-
 #### Tags:
 
- - VBA, Object Model, Workbooks, Worksheets
+ - Object Model, VBA, Workbooks
 
 #### Properties
 
 - [Documentation](https://docs.microsoft.com/en-us/office/vba/api/overview/excel)
-- [Reference](https://docs.microsoft.com/en-us/office/vba/api/overview/excel/object-model)
-- [Examples](https://docs.microsoft.com/en-us/office/vba/excel/concepts/getting-started-with-vba-in-office)
+- [Reference](https://learn.microsoft.com/en-us/office/vba/api/overview/excel/object-model)
 
 ### Office Scripts API
-Modern TypeScript-based API for automating Excel tasks, successor to VBA for Excel on the web
+Modern TypeScript-based API for automating Excel tasks on the web and desktop, the cloud-first successor to VBA for Excel scenarios.
 
-**Human URL:** [https://docs.microsoft.com/en-us/office/dev/scripts/](https://docs.microsoft.com/en-us/office/dev/scripts/)
-
+**Human URL:** [https://learn.microsoft.com/en-us/office/dev/scripts/](https://learn.microsoft.com/en-us/office/dev/scripts/)
 
 #### Tags:
 
@@ -42,54 +45,36 @@ Modern TypeScript-based API for automating Excel tasks, successor to VBA for Exc
 
 #### Properties
 
-- [Documentation](https://docs.microsoft.com/en-us/office/dev/scripts/overview/excel)
-- [API Reference](https://docs.microsoft.com/en-us/javascript/api/office-scripts/excel)
-- [Tutorials](https://docs.microsoft.com/en-us/office/dev/scripts/tutorials/excel-tutorial)
-- [Code Samples](https://github.com/OfficeDev/office-scripts-docs)
+- [Documentation](https://learn.microsoft.com/en-us/office/dev/scripts/overview/excel)
+- [Reference](https://learn.microsoft.com/en-us/javascript/api/office-scripts/excelscript)
+- [Tutorials](https://learn.microsoft.com/en-us/office/dev/scripts/tutorials/excel-tutorial)
 
 ### Excel JavaScript API
-JavaScript API for building Excel add-ins and extending Excel functionality
+JavaScript API for building Excel add-ins and extending Excel functionality in web and desktop environments via Office.js.
 
-**Human URL:** [https://docs.microsoft.com/en-us/office/dev/add-ins/reference/overview/excel-add-ins-reference-overview](https://docs.microsoft.com/en-us/office/dev/add-ins/reference/overview/excel-add-ins-reference-overview)
-
-
-#### Tags:
-
- - JavaScript, Add-ins, Web Development, Office.js
-
-#### Properties
-
-- [Documentation](https://docs.microsoft.com/en-us/office/dev/add-ins/excel/)
-- [API Reference](https://docs.microsoft.com/en-us/javascript/api/excel)
-- [Quick Starts](https://docs.microsoft.com/en-us/office/dev/add-ins/quickstarts/excel-quickstart-jquery)
-- [Code Samples](https://github.com/OfficeDev/Excel-Add-in-samples)
-
-### VBA Macro Security API
-APIs and settings for managing macro security, digital signatures, and trusted locations
-
-**Human URL:** [https://docs.microsoft.com/en-us/deployoffice/security/internet-macros-blocked](https://docs.microsoft.com/en-us/deployoffice/security/internet-macros-blocked)
-
+**Human URL:** [https://learn.microsoft.com/en-us/office/dev/add-ins/reference/overview/excel-add-ins-reference-overview](https://learn.microsoft.com/en-us/office/dev/add-ins/reference/overview/excel-add-ins-reference-overview)
 
 #### Tags:
 
- - Security, Digital Signatures, Trust Center, Policies
+ - Add-Ins, JavaScript, Web Development, Office.js
 
 #### Properties
 
-- [Documentation](https://docs.microsoft.com/en-us/office/vba/library-reference/concepts/getting-started-with-vba-in-office)
-- [Security Guidelines](https://docs.microsoft.com/en-us/deployoffice/security/internet-macros-blocked)
-- [Best Practices](https://support.microsoft.com/en-us/office/enable-or-disable-macros-in-office-files)
+- [Documentation](https://learn.microsoft.com/en-us/office/dev/add-ins/excel/)
+- [Reference](https://learn.microsoft.com/en-us/javascript/api/excel)
+- [Quickstart](https://learn.microsoft.com/en-us/office/dev/add-ins/quickstarts/excel-quickstart-jquery)
 
 ## Common Properties
 
+- [Documentation](https://docs.microsoft.com/en-us/office/vba/api/overview/excel)
+- [Developer Portal](https://developer.microsoft.com/office)
 - [Terms of Service](https://www.microsoft.com/en-us/legal/terms-of-use)
 - [Privacy Policy](https://privacy.microsoft.com/)
-- [Developer Portal](https://developer.microsoft.com/office)
-- [Community Forum](https://techcommunity.microsoft.com/t5/excel/ct-p/Excel_Cat)
 - [GitHub Organization](https://github.com/OfficeDev)
+- [Community Forum](https://techcommunity.microsoft.com/t5/excel/ct-p/Excel_Cat)
 
 ## Maintainers
 
-**FN:** Microsoft Office Dev Team
+**FN:** Kin Lane
 
-**Email:** officedev@microsoft.com
+**Email:** kin@apievangelist.com
