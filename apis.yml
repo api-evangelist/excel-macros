@@ -78,7 +78,7 @@ apis:
         url: https://learn.microsoft.com/en-us/office/dev/add-ins/excel/
       - type: Reference
         url: https://learn.microsoft.com/en-us/javascript/api/excel
-      - type: Quickstart
+      - type: GettingStarted
         url: >-
           https://learn.microsoft.com/en-us/office/dev/add-ins/quickstarts/excel-quickstart-jquery
 common:
