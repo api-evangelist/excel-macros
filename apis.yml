@@ -82,6 +82,10 @@ apis:
         url: >-
           https://learn.microsoft.com/en-us/office/dev/add-ins/quickstarts/excel-quickstart-jquery
 common:
+  - type: VulnerabilityDisclosure
+    url: security/excel-macros-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/excel-macros-domain-security.yml
   - type: Documentation
     url: https://docs.microsoft.com/en-us/office/vba/api/overview/excel
   - type: Portal
