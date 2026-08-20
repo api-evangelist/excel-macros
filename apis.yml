@@ -84,6 +84,11 @@ apis:
       - Add-Ins
       - JavaScript
       - Web Development
+      - Office-Js
+    tags_raw:
+      - Add-Ins
+      - JavaScript
+      - Web Development
       - Office.js
     properties:
       - type: Documentation
