@@ -44,7 +44,7 @@ tags:
 url: https://docs.microsoft.com/en-us/office/vba/api/overview/excel
 created: '2025-01-20'
 modified: '2026-04-28'
-position: Consumer
+position: Consuming
 access: 3rd-Party
 specificationVersion: '0.23'
 apis:
