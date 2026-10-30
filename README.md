@@ -1,4 +1,4 @@
-# Excel Macros (excel-macros)
+# Excel Macros
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,82 +64,108 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-A collection of APIs and resources for working with Excel automation, including VBA macros, Office Scripts (TypeScript), and the Excel JavaScript API for building Office Add-ins. These automation capabilities allow users to streamline repetitive tasks, manipulate workbooks, and extend Excel functionality across desktop, web, and mobile.
+Excel Macros refer to automated sequences of actions in Microsoft Excel, primarily written using VBA (Visual Basic for Applications). Excel also supports Office Scripts (TypeScript) for cloud-based automation and the Excel JavaScript API for building Office Add-ins that run on the web, Windows, Mac, and iPad. These automation capabilities allow users to streamline repetitive tasks, manipulate workbooks, and extend Excel functionality.
 
-**URL:** [Visit APIs.json URL](https://docs.microsoft.com/en-us/office/vba/api/overview/excel)
+**Areas:** Automation · Excel · Macros · Microsoft Office · VBA · Office Scripts · JavaScript
 
-## Scope
+## Excel Macros on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Excel Macros is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/excel-macros/](https://apis.io/providers/excel-macros/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (3)
 
- - Excel, VBA, Macros, Automation, Microsoft Office, Office Scripts, JavaScript
+- [Excel VBA Object Model API](https://apis.io/apis/excel-macros/excel-vba-api/) — Core VBA API for interacting with Excel workbooks, worksheets, ranges, and other Excel objects through Visual Basic for Applications.
+- [Office Scripts API](https://apis.io/apis/excel-macros/office-scripts-api/) — Modern TypeScript-based API for automating Excel tasks on the web and desktop, the cloud-first successor to VBA for Excel scenarios.
+- [Excel JavaScript API](https://apis.io/apis/excel-macros/excel-javascript-api/) — JavaScript API for building Excel add-ins and extending Excel functionality in web and desktop environments via Office.js.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-01-20
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (2)
 
-### Excel VBA Object Model API
-Core VBA API for interacting with Excel workbooks, worksheets, ranges, and other Excel objects through Visual Basic for Applications.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://docs.microsoft.com/en-us/office/vba/api/overview/excel](https://docs.microsoft.com/en-us/office/vba/api/overview/excel)
+- [Excel Macros Domain Security](https://apis.io/security/excel-macros/excel-macros-domain-security/)
+- [Excel Macros Vulnerability Disclosure](https://apis.io/security/excel-macros/excel-macros-vulnerability-disclosure/)
 
-#### Tags:
+#### Plans and pricing (1)
 
- - Object Model, VBA, Workbooks
+Published plans, tiers and prices.
 
-#### Properties
+- [Excel Macros Plans Pricing](https://apis.io/plans/excel-macros/excel-macros-plans-pricing/)
 
+#### Rate limits (1)
+
+Published request limits.
+
+- [Excel Macros Rate Limits](https://apis.io/rate-limits/excel-macros/excel-macros-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Excel Macros Finops](https://apis.io/finops/excel-macros/excel-macros-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.microsoft.com/)
 - [Documentation](https://docs.microsoft.com/en-us/office/vba/api/overview/excel)
-- [Reference](https://learn.microsoft.com/en-us/office/vba/api/overview/excel/object-model)
+- [Terms of service](https://www.microsoft.com/en-us/legal/terms-of-use)
+- [Privacy policy](https://privacy.microsoft.com/)
+- [GitHub](https://github.com/OfficeDev)
 
-### Office Scripts API
-Modern TypeScript-based API for automating Excel tasks on the web and desktop, the cloud-first successor to VBA for Excel scenarios.
+## API Evangelist rating
 
-**Human URL:** [https://learn.microsoft.com/en-us/office/dev/scripts/](https://learn.microsoft.com/en-us/office/dev/scripts/)
+**Kin Score 22.4** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-#### Tags:
+| Facet | Score |
+|---|---|
+| Discoverability | 69.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 28.9 |
 
- - Office Scripts, TypeScript, Automation, Cloud
+**Agent readiness 0.6** — human-only
 
-#### Properties
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-- [Documentation](https://learn.microsoft.com/en-us/office/dev/scripts/overview/excel)
-- [Reference](https://learn.microsoft.com/en-us/javascript/api/office-scripts/excelscript)
-- [Tutorials](https://learn.microsoft.com/en-us/office/dev/scripts/tutorials/excel-tutorial)
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
 
-### Excel JavaScript API
-JavaScript API for building Excel add-ins and extending Excel functionality in web and desktop environments via Office.js.
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/excel-macros/](https://apis.io/providers/excel-macros/).
 
-**Human URL:** [https://learn.microsoft.com/en-us/office/dev/add-ins/reference/overview/excel-add-ins-reference-overview](https://learn.microsoft.com/en-us/office/dev/add-ins/reference/overview/excel-add-ins-reference-overview)
+## How this profile is made
 
-#### Tags:
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
- - Add-Ins, JavaScript, Web Development, Office.js
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Excel Macros: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-#### Properties
+## Open an issue
 
-- [Documentation](https://learn.microsoft.com/en-us/office/dev/add-ins/excel/)
-- [Reference](https://learn.microsoft.com/en-us/javascript/api/excel)
-- [Quickstart](https://learn.microsoft.com/en-us/office/dev/add-ins/quickstarts/excel-quickstart-jquery)
-
-## Common Properties
-
-- [Documentation](https://docs.microsoft.com/en-us/office/vba/api/overview/excel)
-- [Developer Portal](https://developer.microsoft.com/office)
-- [Terms of Service](https://www.microsoft.com/en-us/legal/terms-of-use)
-- [Privacy Policy](https://privacy.microsoft.com/)
-- [GitHub Organization](https://github.com/OfficeDev)
-- [Community Forum](https://techcommunity.microsoft.com/t5/excel/ct-p/Excel_Cat)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/excel-macros/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
